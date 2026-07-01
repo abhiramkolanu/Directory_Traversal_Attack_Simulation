@@ -17,10 +17,10 @@ Project consists of a simple PowerShell script that walks the user through "zero
 <h2>Walk-through:</h2>
 
 <p align="center">
-Launch the utility: <br/>
-<img src="https://i.imgur.com/62TgaWL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Figure 1: Navigated to the ftp_folder, which contains all the files needed for the project: <br/>
+<img width="554" height="80" alt="dta_1" src="https://github.com/user-attachments/assets/21e9c575-2c9b-4551-bf6d-56210adf1bf7" />
 <br />
-hi
+attack.sh is an executable file that contains a bash script to attack our test ftp server.
 <br />
 Select the disk:  <br/>
 <img src="https://i.imgur.com/tcTyMUE.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
