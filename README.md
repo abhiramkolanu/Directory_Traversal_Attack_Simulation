@@ -22,16 +22,23 @@ Figure 1: Navigated to the ftp_folder, which contains all the files needed for t
 <br />
 attack.sh is an executable file that contains a bash script to attack our test ftp server.
 <br />
-Select the disk:  <br/>
-<img src="https://i.imgur.com/tcTyMUE.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+Figure 2: Navigated to the scripts folder, which contains two js. files:  <br/>
+<img width="320" height="59" alt="image" src="https://github.com/user-attachments/assets/9053d34d-0df0-4847-866b-f89667d1fd01" />
+<br />
+js. files are plain-text files that contain Javascript. 
 <br />
 <br />
-Enter the number of passes: <br/>
-<img src="https://i.imgur.com/nCIbXbg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Figure 3: Contents of start-server.js: <br/>
+<img width="469" height="278" alt="image" src="https://github.com/user-attachments/assets/cf63ce50-db9b-4068-b24d-d2bef8dbb89e" />
+<br />
+I used the command vi start-server.js to check the contents of the file. The command, var pkg = require('/usr/local/lib/node_modules/hftp');, makes sure that the hftp Node.js module from that file path is assigned to the variable pkg. Node.js allows us to run Javascript outside of a web browser, meaning we can run it inside our terminal. The overall purpose of this command is to ensure our test ftp server will work correctly once we run it. 
 <br />
 <br />
-Confirm your selection:  <br/>
-<img src="https://i.imgur.com/cdFHBiU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Figure 4: Starting a static file server:  <br/>
+<img width="472" height="163" alt="image" src="https://github.com/user-attachments/assets/33b4fba5-2ee5-4493-a2e8-f80c317d46a5" />
+<br />
+For testing purposes we didn’t create a fully functioning ftp server, instead we spun up a lightweight static file server and configured it to behave like an ftp server. It shares files over HTTP and uses node.js to execute Javascript in our terminal.
 <br />
 <br />
 Wait for process to complete (may take some time):  <br/>
