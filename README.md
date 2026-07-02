@@ -41,8 +41,13 @@ Figure 4: Starting a static file server:  <br/>
 For testing purposes we didn’t create a fully functioning ftp server, instead we spun up a lightweight static file server and configured it to behave like an ftp server. It shares files over HTTP and uses node.js to execute Javascript in our terminal.
 <br />
 <br />
-Wait for process to complete (may take some time):  <br/>
-<img src="https://i.imgur.com/JL945Ga.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Configuring attack.sh: <br/>
+<br />
+<br />
+Figure 5: Configuring File Permissions: <br/>
+<img width="453" height="154" alt="image" src="https://github.com/user-attachments/assets/604b662f-925f-4232-bcfe-1926beeb92a2" />
+<br />
+I used chmod +x attack.sh to make attack.sh executable for users, groups, and others. This allows us to execute the file after the required bash script is written. 
 <br />
 <br />
 Sanitization complete:  <br/>
