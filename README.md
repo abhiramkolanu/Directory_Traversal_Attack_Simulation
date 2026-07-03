@@ -1,7 +1,7 @@
 <h1>Directory Traversal Attack Lab- Codepath CYB102</h1>
 
 <h2>Description</h2>
-Project consists of a simple PowerShell script that walks the user through "zeroing out" (wiping) any drives that are connected to the system. The utility allows you to select the target disk and choose the number of passes that are performed. The PowerShell script will configure a diskpart script file based on the user's selections and then launch Diskpart to perform the disk sanitization.
+In this project, curated by Codepath’s CYB102 course, I learned about the FTP protocol and its vulnerabilities. Additionally, I also gained experience in using VIM. FTP is a protocol that is in charge of transferring files from a computer to a server. The main goal of this project was the understand FTP’s vulnerabilities by simulating a directory traversal attack. Originally we learned that directory traversal attacks are when attackers use a series of ../ commands to escape theri assigned directories and access unauthorized directories. This occurs in FTP servers when the servers do not have proper protections to sanitize user inputs. For the purposes of this lab we used standard FTP protocols, which are not considered safe because standard FTP protocols do not encrypt the connection between the computer and server. We were provided an attack.js file, which contains directory traversal attack commands. Our task was to utilize this file to display the contents of .txt files in specific directories without utilizing the cat command. 
 <br />
 
 
