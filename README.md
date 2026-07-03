@@ -30,7 +30,7 @@ js. files are plain-text files that contain Javascript.
 <br />
 <br />
 Figure 3: Contents of start-server.js: <br/>
-<img width="469" height="278" alt="image" src="https://github.com/user-attachments/assets/cf63ce50-db9b-4068-b24d-d2bef8dbb89e" />
+<img width="574" height="172" alt="image" src="https://github.com/user-attachments/assets/f397b6f9-ce6b-4afc-b22d-7f2f53d1c038" />
 <br />
 I used the command vi start-server.js to check the contents of the file. The command, var pkg = require('/usr/local/lib/node_modules/hftp');, makes sure that the hftp Node.js module from that file path is assigned to the variable pkg. Node.js allows us to run Javascript outside of a web browser, meaning we can run it inside our terminal. The overall purpose of this command is to ensure our test ftp server will work correctly once we run it. 
 <br />
