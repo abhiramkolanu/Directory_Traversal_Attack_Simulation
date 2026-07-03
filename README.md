@@ -53,6 +53,8 @@ I used chmod +x attack.sh to make attack.sh executable for users, groups, and ot
 Figure 6: Writing bash script, in VIM, to execute a director traversal attack:  <br/>
 <img width="462" height="475" alt="image" src="https://github.com/user-attachments/assets/a22eda87-9698-4b5f-9e41-798e1506ba57" />
 <br />
+Node /home/codepath/ftp_folder/scripts/start-server.js makes sure that our test ftp server is spun up before other commands are executed.  Each “ATTACK_PATH” variable is assigned to a .txt file from each directory we want to target. Additionally, node is used again to envoke the attack.js file to target the file path specified in the corresponding variable.  
+<br />
 <br />
 Figure 7: Results of the bash script:  <br/>
 <img width="640" height="205" alt="image" src="https://github.com/user-attachments/assets/8cef3664-f678-4bc9-8ea7-bb82feb7b864" />
