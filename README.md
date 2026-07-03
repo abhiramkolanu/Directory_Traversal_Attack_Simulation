@@ -50,11 +50,22 @@ Figure 5: Configuring File Permissions: <br/>
 I used chmod +x attack.sh to make attack.sh executable for users, groups, and others. This allows us to execute the file after the required bash script is written. 
 <br />
 <br />
-Sanitization complete:  <br/>
-<img src="https://i.imgur.com/K71yaM2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Figure 6: Writing bash script, in VIM, to execute a director traversal attack:  <br/>
+<img width="462" height="475" alt="image" src="https://github.com/user-attachments/assets/a22eda87-9698-4b5f-9e41-798e1506ba57" />
 <br />
 <br />
-Observe the wiped disk:  <br/>
-<img src="https://i.imgur.com/AeZkvFQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Figure 7: Results of the bash script:  <br/>
+<img width="640" height="205" alt="image" src="https://github.com/user-attachments/assets/8cef3664-f678-4bc9-8ea7-bb82feb7b864" />
+<br />
+<br />
+Troubleshooting: <br/>
+<br />
+<br />
+Figure 8: Incorrect output after executing attack.sh: <br/>
+<img width="640" height="205" alt="image" src="https://github.com/user-attachments/assets/7d43b66f-33a4-4639-ace7-79cf290bd52c" />
+<br />
+I used chmod +x attack.sh to make attack.sh executable for users, groups, and others. This allows us to execute the file after the required bash script is written. 
+<br />
+<br />
 </p>
 
