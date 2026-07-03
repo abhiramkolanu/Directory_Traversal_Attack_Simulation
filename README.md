@@ -59,6 +59,8 @@ Node /home/codepath/ftp_folder/scripts/start-server.js makes sure that our test 
 Figure 7: Results of the bash script:  <br/>
 <img width="640" height="205" alt="image" src="https://github.com/user-attachments/assets/8cef3664-f678-4bc9-8ea7-bb82feb7b864" />
 <br />
+The output shows the content of the .txt files without using the cat, concatenate, command.
+<br />
 <br />
 Troubleshooting: <br/>
 <br />
