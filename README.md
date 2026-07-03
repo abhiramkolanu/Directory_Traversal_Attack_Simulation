@@ -38,7 +38,7 @@ I used the command vi start-server.js to check the contents of the file. The com
 Figure 4: Starting a static file server:  <br/>
 <img width="472" height="163" alt="image" src="https://github.com/user-attachments/assets/33b4fba5-2ee5-4493-a2e8-f80c317d46a5" />
 <br />
-For testing purposes we didn’t create a fully functioning ftp server, instead we spun up a lightweight static file server and configured it to behave like an ftp server. It shares files over HTTP and uses node.js to execute Javascript in our terminal.
+For testing purposes we didn’t create a fully functioning ftp server. Instead, we spun up a lightweight static file server and configured it to behave like an ftp server. It shares files over HTTP and uses node.js to execute Javascript in our terminal.
 <br />
 <br />
 Configuring attack.sh: <br/>
