@@ -66,7 +66,7 @@ Troubleshooting: <br/>
 <br />
 <br />
 Figure 8: Incorrect output after executing attack.sh: <br/>
-<img width="640" height="205" alt="image" src="https://github.com/user-attachments/assets/7d43b66f-33a4-4639-ace7-79cf290bd52c" />
+<img width="719" height="93" alt="image" src="https://github.com/user-attachments/assets/6afa6194-5d17-4536-897b-5648fbd559da" />
 <br />
 In my first attempt I set the ATTACK_PATH variable to the full file path, which is /home/codepath/ftp_folder/wanda/reports_original.txt. But when I executed this bash script, I received a 404 Not Found error. 404 Not Found error is a classic http error meaning that the webpage/file could not be found. After further analyzing the test ftp server I realized that the server is operating specifically in the ftp_folder directory on start up. I deduced that I only needed to include the directory wanda and the specific .txt file I want to attack. 
 <br />
